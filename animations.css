@@ -1,0 +1,102 @@
+/**
+ * Foresight Associates — Subtle & Editorial Animations
+ */
+
+/* By default, elements are visible (graceful progressive enhancement) */
+.reveal {
+  opacity: 1;
+  transform: none;
+  transition: opacity var(--duration-luxury) var(--ease-editorial),
+              transform var(--duration-luxury) var(--ease-editorial);
+}
+
+/* When JavaScript animation engine is active, animate into view */
+.js-anim-ready .reveal:not(.is-visible) {
+  opacity: 0;
+  transform: translateY(24px);
+  will-change: opacity, transform;
+}
+
+.js-anim-ready .reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger Delays */
+.delay-1 {
+  transition-delay: 120ms;
+}
+
+.delay-2 {
+  transition-delay: 240ms;
+}
+
+.delay-3 {
+  transition-delay: 360ms;
+}
+
+.delay-4 {
+  transition-delay: 480ms;
+}
+
+/* Fade In Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Subtle Hero Entrance */
+.hero-content {
+  animation: fadeInUp 1.2s var(--ease-editorial) both;
+}
+
+.hero-index {
+  animation: fadeIn 1.4s var(--ease-editorial) 0.3s both;
+}
+
+/* Pulse for loading state */
+@keyframes subtlePulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.is-loading-pulse {
+  animation: subtlePulse 1.6s infinite ease-in-out;
+}
+
+/* Accessibility: Disable all motion if requested */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .js-anim-ready .reveal:not(.is-visible),
+  .js-anim-ready .reveal.is-visible {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .hero-content,
+  .hero-index,
+  .is-loading-pulse {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

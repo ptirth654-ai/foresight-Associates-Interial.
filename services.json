@@ -1,0 +1,82 @@
+[
+  {
+    "id": "architectural-design",
+    "number": "01",
+    "title": "Architectural Design",
+    "subtitle": "Form, context, and tactile permanence",
+    "category": "Architecture",
+    "summary": "Comprehensive architectural masterplanning and building design responding to site, climate, light, and materiality.",
+    "description": "Our architectural practice approaches every commission from first principles—analyzing daylight angles, microclimatic breezes, spatial proportions, and local material traditions. We design enduring residential, commercial, and institutional structures that age gracefully alongside the natural landscape.",
+    "deliverables": [
+      "Site analysis, solar geometry, and contextual planning",
+      "Concept design, volumetric massing, and architectural narratives",
+      "Detailed architectural drafting, BIM coordination, and working drawings",
+      "Statutory municipal approvals and liaison documentation",
+      "Site supervision, material benchmarking, and construction review"
+    ]
+  },
+  {
+    "id": "residential-architecture",
+    "number": "02",
+    "title": "Residential Architecture",
+    "subtitle": "Sanctuaries tailored to human life",
+    "category": "Residential",
+    "summary": "Bespoke villas, family residences, and multi-generational homes designed around private courtyards and verdant living.",
+    "description": "From suburban retreats like Vairaag and Pramukh Villa to grand four-level residences like Shayonam, our residential work crafts homes that nurture deep family life. We focus on seamless indoor-outdoor transitions, acoustic tranquility, and honest materials such as exposed brick and raw concrete.",
+    "deliverables": [
+      "Custom villa and private bungalow architecture",
+      "Multi-generational spatial zoning and private suites",
+      "Courtyard, verandah, and landscape integration",
+      "Climatically responsive building envelope design",
+      "Bespoke architectural detailing and fenestration"
+    ]
+  },
+  {
+    "id": "interior-architecture",
+    "number": "03",
+    "title": "Interior Architecture",
+    "subtitle": "Material honesty, light, and artisan craft",
+    "category": "Interiors",
+    "summary": "Holistic interior environments balancing modern minimalist elegance with authentic Indian artisanal craft traditions.",
+    "description": "We treat interior architecture not as superficial decoration, but as an intimate sculptural continuation of the building itself. We specify natural marbles, warm teakwood, textured Oikos plasters, custom CNC metal screens, and tailored mood lighting to evoke quiet, enduring luxury.",
+    "deliverables": [
+      "Spatial layout optimization and volumetric flow",
+      "Bespoke cabinetry, custom furniture design, and joinery details",
+      "Material, texture, and colour palette curation",
+      "Architectural lighting design and circadian illumination",
+      "Art curation, ethnic motifs, and soft furnishing styling"
+    ]
+  },
+  {
+    "id": "commercial-workplace",
+    "number": "04",
+    "title": "Commercial & Workplace",
+    "subtitle": "Inspiring environments with lasting brand identity",
+    "category": "Commercial",
+    "summary": "Distinctive commercial headquarters, experience centers, and corporate site offices that elevate daily work.",
+    "description": "As demonstrated in the Isha Developers Office, our commercial architecture transcends generic corporate environments. We craft tactile, permanent workplaces centered around natural green courtyards, exposed masonry, and dignified spaces that leave a memorable impression on clients and teams alike.",
+    "deliverables": [
+      "Corporate headquarters and site office architecture",
+      "Client experience centers and executive suites",
+      "Adaptive workspace planning promoting collaboration and wellness",
+      "Biophilic office courtyards and natural lighting schemes",
+      "Durable commercial-grade material specifications"
+    ]
+  },
+  {
+    "id": "renovation-consultation",
+    "number": "05",
+    "title": "Renovation & Adaptive Reuse",
+    "subtitle": "Reimagining legacy structures with quiet dignity",
+    "category": "Consultation",
+    "summary": "Sensitive structural transformations, interior modernizations, and spatial reconfigurations for established properties.",
+    "description": "For existing residences and commercial properties seeking renewal, we analyze existing structural bones to introduce generous daylight, improved thermal insulation, modern amenities, and timeless aesthetic coherence while respecting original character.",
+    "deliverables": [
+      "Structural assessment and feasibility studies",
+      "Spatial reconfiguration and daylight penetration planning",
+      "Façade rejuvenation and material upgrading",
+      "Modern MEP (Mechanical, Electrical, Plumbing) integration",
+      "Turnkey architectural design consultation"
+    ]
+  }
+]

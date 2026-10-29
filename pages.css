@@ -1,0 +1,432 @@
+/**
+ * Foresight Associates — Page-Specific Styling
+ */
+
+/* ==========================================================================
+   Page Headers (Non-Hero Pages)
+   ========================================================================== */
+
+.page-header {
+  padding-top: calc(var(--header-height) + var(--space-4xl));
+  padding-bottom: var(--space-3xl);
+  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-chalk);
+}
+
+.page-header-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 52rem;
+}
+
+.page-header-inner h1 {
+  font-size: var(--fs-3xl);
+  line-height: 1.08;
+}
+
+.page-header-lead {
+  font-size: var(--fs-md);
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   Project Detail Pages
+   ========================================================================== */
+
+.project-detail-hero {
+  position: relative;
+  width: 100%;
+  height: clamp(65vh, 80vh, 850px);
+  overflow: hidden;
+  background-color: var(--color-charcoal);
+}
+
+.project-detail-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.88);
+}
+
+.project-detail-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(28, 28, 26, 0.3) 0%,
+    rgba(28, 28, 26, 0.1) 40%,
+    rgba(28, 28, 26, 0.75) 100%
+  );
+}
+
+.project-meta-strip {
+  background-color: var(--color-chalk);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-xl) 0;
+}
+
+.project-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+}
+
+.meta-item dt {
+  font-size: var(--fs-xs);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-olive);
+  font-weight: var(--fw-medium);
+  margin-bottom: 0.35rem;
+}
+
+.meta-item dd {
+  font-size: var(--fs-sm);
+  color: var(--color-charcoal);
+  font-weight: var(--fw-medium);
+}
+
+.project-narrative {
+  padding: var(--space-4xl) 0;
+}
+
+.project-story-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(2.5rem, 6vw, 6rem);
+  align-items: flex-start;
+}
+
+.story-lead h2 {
+  font-size: var(--fs-2xl);
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.15;
+}
+
+.story-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: var(--fs-base);
+  line-height: 1.75;
+}
+
+.features-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  padding-top: 1.5rem;
+}
+
+.features-list li {
+  position: relative;
+  padding-left: 1.75rem;
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+.features-list li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--color-olive);
+}
+
+.project-credits-box {
+  background-color: var(--color-chalk);
+  border: 1px solid var(--color-border);
+  padding: 2rem;
+  margin-top: var(--space-3xl);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.credit-item dt {
+  font-size: var(--fs-xs);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-olive);
+  margin-bottom: 0.25rem;
+}
+
+.credit-item dd {
+  font-size: var(--fs-sm);
+  color: var(--color-charcoal);
+}
+
+.project-navigation-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-xl) 0;
+  margin-top: var(--space-4xl);
+}
+
+/* ==========================================================================
+   About Page: Studio & Principals
+   ========================================================================== */
+
+.principals-section {
+  padding: var(--space-4xl) 0;
+  background-color: var(--color-chalk);
+  border-top: 1px solid var(--color-border);
+}
+
+.principals-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(2rem, 4vw, 4rem);
+  margin-top: var(--space-3xl);
+}
+
+.principal-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-charcoal);
+}
+
+.principal-number {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.16em;
+  color: var(--color-olive);
+  font-weight: var(--fw-semibold);
+}
+
+.principal-card h3 {
+  font-size: var(--fs-xl);
+  line-height: 1.15;
+}
+
+.principal-role {
+  font-size: var(--fs-xs);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.principal-card p {
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   Services Page
+   ========================================================================== */
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-row {
+  display: grid;
+  grid-template-columns: 80px 1.2fr 1.8fr;
+  gap: clamp(1.5rem, 4vw, 4rem);
+  padding: var(--space-3xl) 0;
+  border-bottom: 1px solid var(--color-border);
+  align-items: flex-start;
+}
+
+.service-num {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  color: var(--color-olive);
+  line-height: 1;
+}
+
+.service-title-col h2 {
+  font-size: var(--fs-2xl);
+  line-height: 1.12;
+  margin-bottom: 0.5rem;
+}
+
+.service-subtitle {
+  font-size: var(--fs-xs);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.service-desc-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.service-desc-col p {
+  font-size: var(--fs-base);
+  line-height: 1.7;
+}
+
+.deliverables-box {
+  background-color: var(--color-chalk);
+  border: 1px solid var(--color-border);
+  padding: 1.5rem;
+}
+
+.deliverables-title {
+  font-size: var(--fs-xs);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-olive);
+  font-weight: var(--fw-semibold);
+  margin-bottom: 0.75rem;
+}
+
+/* ==========================================================================
+   Contact Page Layout
+   ========================================================================== */
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: clamp(3rem, 6vw, 7rem);
+  padding: var(--space-4xl) 0;
+}
+
+.contact-info-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.contact-info-block h3 {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-olive);
+  margin-bottom: 0.75rem;
+}
+
+.contact-info-block p {
+  font-size: var(--fs-base);
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+.social-links-list {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.social-link-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-charcoal);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 0.2rem;
+  transition: all var(--duration-fast);
+}
+
+.social-link-item:hover {
+  color: var(--color-olive);
+  border-color: var(--color-olive);
+}
+
+/* ==========================================================================
+   Privacy Policy Page
+   ========================================================================== */
+
+.policy-content {
+  max-width: 48rem;
+  padding: var(--space-4xl) 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.policy-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.policy-section h2 {
+  font-size: var(--fs-xl);
+}
+
+.policy-section p, .policy-section ul {
+  font-size: var(--fs-base);
+  line-height: 1.7;
+}
+
+.policy-section ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* ==========================================================================
+   404 Not Found Page
+   ========================================================================== */
+
+.not-found-page {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-4xl) 0;
+}
+
+.not-found-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 32rem;
+}
+
+.not-found-code {
+  font-family: var(--font-serif);
+  font-size: 7rem;
+  line-height: 1;
+  color: var(--color-sandstone);
+}
+
+@media (max-width: 1024px) {
+  .project-story-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .service-row {
+    grid-template-columns: 60px 1fr;
+    gap: 2rem;
+  }
+
+  .service-desc-col {
+    grid-column: 2 / -1;
+  }
+
+  .principals-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+}

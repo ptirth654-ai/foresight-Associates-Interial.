@@ -1,21 +1,24 @@
 {
-  "name": "foresight-associates",
+  "name": "foresight-associates-backend",
   "version": "1.0.0",
-  "description": "Foresight Associates — Luxury Architecture & Interior Design Studio Website",
-  "main": "server/server.js",
+  "description": "Luxury architecture studio backend for Foresight Associates",
+  "main": "server.js",
   "scripts": {
-    "start": "node server/server.js",
-    "dev": "node --watch server/server.js",
-    "serve": "node server/server.js",
-    "deploy": "npx -y vercel --prod"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "keywords": [
     "architecture",
     "interior-design",
-    "vadodara",
-    "foresight-associates"
+    "express",
+    "contact-api"
   ],
   "author": "Foresight Associates",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "nodemailer": "^6.9.13"
+  }
 }
 

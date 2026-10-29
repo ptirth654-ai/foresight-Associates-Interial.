@@ -1,0 +1,91 @@
+/**
+ * Foresight Associates — Luxury Architecture & Interior Design
+ * Design System Tokens: "Quiet Luxury — Architecture in Its Purest Form"
+ */
+
+:root {
+  /* Color Palette */
+  --color-ivory: #F6F3ED;
+  --color-chalk: #FCFBF8;
+  --color-charcoal: #252522;
+  --color-charcoal-pure: #1C1C1A;
+  --color-charcoal-light: #333330;
+  --color-olive: #797B64;
+  --color-olive-dark: #585A48;
+  --color-olive-tint: rgba(121, 123, 100, 0.12);
+  --color-sandstone: #C9B9A4;
+  --color-sandstone-light: #E7DFD5;
+  --color-earth-brown: #8C725B;
+  --color-border: #DCD7CE;
+  --color-border-subtle: rgba(220, 215, 206, 0.6);
+  --color-border-dark: rgba(252, 251, 248, 0.16);
+
+  /* Semantic Color Aliases */
+  --bg-primary: var(--color-ivory);
+  --bg-surface: var(--color-chalk);
+  --bg-dark: var(--color-charcoal);
+  --text-primary: var(--color-charcoal);
+  --text-muted: #6B685F;
+  --text-light: var(--color-chalk);
+  --text-light-muted: rgba(252, 251, 248, 0.72);
+  --accent: var(--color-olive);
+
+  /* Typography */
+  --font-serif: "Cormorant Garamond", Garamond, Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Font Weights */
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+
+  /* Fluid Typography Scale */
+  --fs-xs: clamp(0.72rem, 0.7rem + 0.15vw, 0.8rem);
+  --fs-sm: clamp(0.85rem, 0.82rem + 0.2vw, 0.95rem);
+  --fs-base: clamp(1rem, 0.96rem + 0.25vw, 1.125rem);
+  --fs-md: clamp(1.15rem, 1.08rem + 0.4vw, 1.35rem);
+  --fs-lg: clamp(1.4rem, 1.25rem + 0.8vw, 1.85rem);
+  --fs-xl: clamp(1.85rem, 1.55rem + 1.4vw, 2.6rem);
+  --fs-2xl: clamp(2.4rem, 1.95rem + 2.2vw, 3.8rem);
+  --fs-3xl: clamp(3rem, 2.3rem + 3.5vw, 5.2rem);
+  --fs-display: clamp(3.6rem, 2.8rem + 4.8vw, 7.2rem);
+
+  /* Spacing Scale */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 6.5rem;
+  --space-5xl: 9rem;
+
+  /* Layout */
+  --container-max: 1440px;
+  --container-wide: 1680px;
+  --container-narrow: 980px;
+  --container-pad: clamp(1.25rem, 4vw, 4.5rem);
+  --header-height: 5.5rem;
+  --header-height-scrolled: 4.5rem;
+
+  /* Transitions & Easing */
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 220ms;
+  --duration-normal: 400ms;
+  --duration-slow: 750ms;
+  --duration-luxury: 1100ms;
+
+  /* Shadows (Restrained & Architectural) */
+  --shadow-subtle: 0 4px 20px rgba(37, 37, 34, 0.04);
+  --shadow-floating: 0 16px 40px rgba(37, 37, 34, 0.08);
+
+  /* Borders & Radius */
+  --radius-none: 0;
+  --radius-subtle: 2px;
+  --border-fine: 1px solid var(--color-border);
+  --border-fine-dark: 1px solid var(--color-border-dark);
+}

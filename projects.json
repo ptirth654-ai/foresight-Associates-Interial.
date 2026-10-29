@@ -1,0 +1,287 @@
+[
+  {
+    "id": "pramukh-villa",
+    "title": "Pramukh Villa",
+    "slug": "pramukh-villa",
+    "category": "Residential",
+    "categoryLabel": "Residential Architecture & Interior",
+    "location": "Atladra, Vadodara, Gujarat",
+    "city": "Vadodara",
+    "year": "2024",
+    "area": "Approximately 3,400 sq. ft.",
+    "typology": "Private Residence",
+    "status": "Completed",
+    "featured": true,
+    "heroImage": "assets/images/projects/pramukh-villa/hero.jpg",
+    "thumbnail": "assets/images/projects/pramukh-villa/hero.jpg",
+    "tagline": "A serene sanctuary of raw concrete, rustic brick, and nature.",
+    "summary": "Pramukh Villa explores the honest interplay between raw materiality and verdant nature. Designed for quiet luxury living in Atladra, the residence synthesizes exposed brickwork, tactile concrete textures, and lush courtyards into a harmonious, light-filled domestic retreat.",
+    "overview": "Located in Atladra, Vadodara, Pramukh Villa reinterprets contemporary suburban living by embedding nature into the very spine of the home. The design celebrates tactile materials—rustic brick, exposed concrete finishes, and handcrafted timber elements—fostering an atmosphere of calm permanence. Sunlight filters through customized fluted glass and deep openings, bathing internal courtyards and open living volumes in dynamic daylight throughout the day.",
+    "concept": "The design concept was guided by three principles: architectural honesty, indoor-outdoor connectivity, and quiet material dignity. Rather than isolating greenery as an ornamental afterthought, landscaping is woven directly into interior corners and transitional thresholds.",
+    "keyFeatures": [
+      "Seamless visual and physical flow between the living areas and perimeter green pockets",
+      "Tactile palette of rustic masonry, exposed concrete formwork, and rich teak accents",
+      "Custom fluted glass partitions balancing spatial privacy with diffused natural light",
+      "Climatically responsive overhangs mitigating western glare while maximizing cross ventilation"
+    ],
+    "credits": {
+      "principals": "Shivali Agrawal, Kunal Patel, Azaz Saleh",
+      "firm": "Foresight Associates",
+      "photography": "Tejas Shah Photography",
+      "location": "Atladra, Vadodara, India",
+      "published": "Volume Zero & The Architect's Diary"
+    },
+    "gallery": [
+      {
+        "src": "assets/images/projects/pramukh-villa/hero.jpg",
+        "alt": "Pramukh Villa exterior facade and verdant entrance",
+        "caption": "North-facing approach showcasing exposed brickwork and concrete planes",
+        "aspect": "wide"
+      },
+      {
+        "src": "assets/images/projects/pramukh-villa/facade.jpg",
+        "alt": "Architectural facade composition of Pramukh Villa",
+        "caption": "Deep recessed openings and delicate metal balustrades",
+        "aspect": "tall"
+      },
+      {
+        "src": "assets/images/projects/pramukh-villa/courtyard.jpg",
+        "alt": "Internal courtyard garden with architectural foliage",
+        "caption": "Internal courtyard anchoring circulation with natural greens",
+        "aspect": "square"
+      },
+      {
+        "src": "assets/images/projects/pramukh-villa/living-room.jpg",
+        "alt": "Spacious living area with contemporary furnishings",
+        "caption": "Double-height living pavilion with bespoke timber joinery",
+        "aspect": "wide"
+      },
+      {
+        "src": "assets/images/projects/pramukh-villa/dining.jpg",
+        "alt": "Dining space connected to internal landscape",
+        "caption": "Dining area framing serene courtyards and textured finishes",
+        "aspect": "wide"
+      },
+      {
+        "src": "assets/images/projects/pramukh-villa/bedroom.jpg",
+        "alt": "Master suite with warm timber and muted palette",
+        "caption": "Restful private quarters with warm timber flooring and earthy textiles",
+        "aspect": "wide"
+      }
+    ]
+  },
+  {
+    "id": "vairaag",
+    "title": "Vairaag",
+    "slug": "vairaag",
+    "category": "Residential",
+    "categoryLabel": "Modern-Rustic Residence",
+    "location": "Bill Road, Vadodara, Gujarat",
+    "city": "Vadodara",
+    "year": "2022",
+    "area": "Approximately 3,690 sq. ft.",
+    "typology": "Private Suburban Villa",
+    "status": "Completed",
+    "featured": true,
+    "heroImage": "assets/images/projects/vairaag/hero.jpg",
+    "thumbnail": "assets/images/projects/vairaag/hero.jpg",
+    "tagline": "Modern-rustic suburban villa framing light through corten steel artistry.",
+    "summary": "Named as an affectionate portmanteau of homeowners Vaishali and Gaurang, Vairaag merges modern-rustic sensibilities with raw concrete, exposed brick, and bespoke corten steel jalis that cast intricate shadow poetry into peaceful living spaces.",
+    "overview": "Set along Bill Road in suburban Vadodara, Vairaag stands as a testament to contextual luxury. The villa's envelope presents an expressive conversation between brutalist board-formed concrete, earthen brickwork, and warm corten steel latticework. Within, the home unfolds as a fluid sanctuary of warm textured Oikos walls, custom sculptural lighting, and artisanal Indian craft elements curated for modern domestic life.",
+    "concept": "The concept originated from the clients' desire for a grounding residence that felt deeply personal and timeless. The architects conceptualized the dwelling as an acoustic and thermal refuge, using customized metal screens (jalis) to temper intense sunlight while animating internal floors with geometric patterns of light and shadow.",
+    "keyFeatures": [
+      "Custom laser-cut Corten steel jali screens providing privacy and dynamic daylight casting",
+      "Handcrafted exposed brick masonry laid in textured courses alongside raw concrete surfaces",
+      "Textured Oikos Italian wall finishes paired with bespoke brass-inlaid teak furnishings",
+      "Seamless indoor-verandah transition orienting living spaces toward private landscaped gardens"
+    ],
+    "credits": {
+      "principals": "Shivali Agrawal, Kunal Patel, Azaz Saleh",
+      "firm": "Foresight Associates",
+      "photography": "Tejas Shah Photography",
+      "location": "Bill Road, Vadodara, India",
+      "published": "Volume Zero (Hot 100 Selection) & The Architect's Diary"
+    },
+    "gallery": [
+      {
+        "src": "assets/images/projects/vairaag/hero.jpg",
+        "alt": "Vairaag villa exterior featuring exposed brick and concrete",
+        "caption": "Street facade exhibiting the raw interplay of concrete, brick, and corten steel",
+        "aspect": "wide"
+      },
+      {
+        "src": "assets/images/projects/vairaag/facade.jpg",
+        "alt": "Close-up of geometric facade detailing",
+        "caption": "Sculptural massing and deep fenestration designed for solar moderation",
+        "aspect": "tall"
+      },
+      {
+        "src": "assets/images/projects/vairaag/corten-jali.jpg",
+        "alt": "Bespoke Corten steel jali screen filtering daylight",
+        "caption": "Intricately detailed Corten steel screens animating the interior corridors",
+        "aspect": "tall"
+      },
+      {
+        "src": "assets/images/projects/vairaag/living-room.jpg",
+        "alt": "Refined modern-rustic living room",
+        "caption": "Living lounge blending neutral upholstery with textured feature walls",
+        "aspect": "wide"
+      },
+      {
+        "src": "assets/images/projects/vairaag/dining.jpg",
+        "alt": "Warm dining area with crafted dining table and chandelier",
+        "caption": "Dining space centered around bespoke natural wood furniture and art",
+        "aspect": "square"
+      },
+      {
+        "src": "assets/images/projects/vairaag/verandah.jpg",
+        "alt": "Open verandah space facing greenery",
+        "caption": "Semi-covered garden verandah providing natural ventilation and relaxation",
+        "aspect": "wide"
+      }
+    ]
+  },
+  {
+    "id": "shayonam",
+    "title": "Shayonam",
+    "slug": "shayonam",
+    "category": "Interiors",
+    "categoryLabel": "Luxury Residence & Interior",
+    "location": "Vadodara, Gujarat",
+    "city": "Vadodara",
+    "year": "2023",
+    "area": "Approximately 9,795 sq. ft.",
+    "typology": "Four-Level Luxury Residence",
+    "status": "Completed",
+    "featured": true,
+    "heroImage": "assets/images/projects/shayonam/hero.webp",
+    "thumbnail": "assets/images/projects/shayonam/hero.webp",
+    "tagline": "An artful nucleus of modern architecture and ethnic design heritage.",
+    "summary": "Spanning four dramatic levels and nearly 10,000 square feet, Shayonam is a tour-de-force of contemporary Indian residential luxury. It masterfully bridges expansive double-height volumes with intricate ethnic woodwork, CNC-crafted motifs, and tactile materiality.",
+    "overview": "Published in The Architect's Diary as an 'artful nucleus of modern and ethnic design body,' Shayonam is designed to accommodate multi-generational living with effortless grace. Organized across four interconnected levels, the home features grand public entertaining halls, intimate private suites, dedicated wellness zones, and serene prayer spaces. The material vocabulary brings together raw exposed concrete, rich warm teak, fluted paneling, and delicate brass accents.",
+    "concept": "The spatial narrative balances traditional Indian joint-family cultural values with international contemporary living standards. Every level is connected through a vertical atrium bathed in natural overhead daylight, creating visual connections across floors while maintaining acoustic comfort and thermal zoning.",
+    "keyFeatures": [
+      "Monumental 4-level spatial arrangement spanning 9,795 square feet of bespoke built space",
+      "Skylit central stair atrium creating dynamic vertical dialogue and continuous illumination",
+      "Artisan CNC-milled wooden screens and ethnic ceiling motifs harmonized with sleek modern profiles",
+      "Luxurious master suites with integrated dressing lounges and spa-inspired natural stone ensuites"
+    ],
+    "credits": {
+      "principals": "Shivali Agrawal, Kunal Patel, Azaz Saleh",
+      "firm": "Foresight Associates",
+      "photography": "Tejas Shah Photography",
+      "editorial": "Nishal Sevak (The Architect's Diary)",
+      "location": "Vadodara, Gujarat, India",
+      "published": "The Architect's Diary"
+    },
+    "gallery": [
+      {
+        "src": "assets/images/projects/shayonam/hero.webp",
+        "alt": "Shayonam grand entrance and formal living hall",
+        "caption": "Formal living area with double-height volume and sculptural light installations",
+        "aspect": "wide"
+      },
+      {
+        "src": "assets/images/projects/shayonam/living-atrium.webp",
+        "alt": "Double-height living atrium illuminated by natural daylight",
+        "caption": "Central atrium connecting the levels with timber paneling and marble flooring",
+        "aspect": "tall"
+      },
+      {
+        "src": "assets/images/projects/shayonam/staircase-feature.webp",
+        "alt": "Architectural cantilevered staircase with glass balustrade",
+        "caption": "Geometric staircase framed by brass and tinted glass elements",
+        "aspect": "tall"
+      },
+      {
+        "src": "assets/images/projects/shayonam/dining-area.webp",
+        "alt": "Formal dining suite with customized veneer details",
+        "caption": "Dining suite designed for family gatherings with custom Italian marble table",
+        "aspect": "wide"
+      },
+      {
+        "src": "assets/images/projects/shayonam/master-suite.webp",
+        "alt": "Serene master bedroom suite with warm wood tones",
+        "caption": "Master bedroom featuring fluted timber backdrops and ambient architectural lighting",
+        "aspect": "wide"
+      },
+      {
+        "src": "assets/images/projects/shayonam/ethnic-lounge.webp",
+        "alt": "Ethnic lounge and reading retreat with traditional motifs",
+        "caption": "Ethnic lounge incorporating handcrafted textiles, carved niches, and warm mood lighting",
+        "aspect": "wide"
+      }
+    ]
+  },
+  {
+    "id": "isha-developers-office",
+    "title": "Isha Developers Office",
+    "slug": "isha-developers-office",
+    "category": "Commercial",
+    "categoryLabel": "Commercial Architecture & Workplace",
+    "location": "Vadodara, Gujarat",
+    "city": "Vadodara",
+    "year": "2022",
+    "area": "Approximately 1,500 sq. ft.",
+    "typology": "Developer Site & Administrative Office",
+    "status": "Completed",
+    "featured": true,
+    "heroImage": "assets/images/projects/isha-developers-office/hero.jpg",
+    "thumbnail": "assets/images/projects/isha-developers-office/hero.jpg",
+    "tagline": "Permanent site office redefining workplace through exposed brick, concrete, and green courtyards.",
+    "summary": "Breaking away from the temporary, utilitarian nature of typical property site offices, Isha Developers Office is a permanent, climatically responsive architectural statement of exposed concrete, brick motifs, sloping roofs, and an open courtyard core.",
+    "overview": "Designed for a forward-thinking real estate development firm in Vadodara, this 1,500 sq. ft. office faces the main road with commanding quiet presence. Foresight Associates departed from modular site containers to craft a permanent, tactile pavilion. Featuring sloping terracotta roof profiles, broad granite plinths, exposed Kota stone floors, and a central open-to-sky planter courtyard, the structure warmly welcomes prospective buyers and team members alike.",
+    "concept": "The concept reinterprets the traditional Indian chowk (central courtyard). By anchoring the plan around a central green courtyard covered by an overhead cast-iron jali, daylight penetrates deep into administrative workspaces while filtering thermal gain.",
+    "keyFeatures": [
+      "Permanent architectural character breaking free of generic prefabricated site offices",
+      "Central micro-courtyard core with lush ficus planter and natural Kota stone paving",
+      "Overhead cast-iron jali canopy casting intricate shadow silhouettes across raw brick masonry",
+      "Sloping roof volume paired with full-height glazing for panoramic sightlines into surroundings"
+    ],
+    "credits": {
+      "principals": "Shivali Agrawal, Kunal Patel, Azaz Saleh",
+      "firm": "Foresight Associates",
+      "photography": "Sagar Bhavsar",
+      "location": "Vadodara, Gujarat, India",
+      "published": "Volume Zero"
+    },
+    "gallery": [
+      {
+        "src": "assets/images/projects/isha-developers-office/hero.jpg",
+        "alt": "Isha Developers Office exterior facade with sloping roof and brickwork",
+        "caption": "Prominent road-facing elevation featuring sloping roof and exposed brick accents",
+        "aspect": "wide"
+      },
+      {
+        "src": "assets/images/projects/isha-developers-office/entrance.jpg",
+        "alt": "Granite steps and glass portal entrance",
+        "caption": "Welcoming entrance framed by wide granite plinth and transparent glass envelope",
+        "aspect": "tall"
+      },
+      {
+        "src": "assets/images/projects/isha-developers-office/courtyard.jpg",
+        "alt": "Central open courtyard with overhead cast-iron jali",
+        "caption": "Central courtyard core with overhead cast-iron jali casting daylight textures",
+        "aspect": "square"
+      },
+      {
+        "src": "assets/images/projects/isha-developers-office/interior-office.jpg",
+        "alt": "Executive consultation room with exposed brick and concrete backdrop",
+        "caption": "Consultation lounge enjoying uninterrupted courtyard vistas",
+        "aspect": "wide"
+      },
+      {
+        "src": "assets/images/projects/isha-developers-office/brick-detail.jpg",
+        "alt": "Artisanal brick masonry detailing and glass junction",
+        "caption": "Crisp masonry joinery highlighting natural Kota stone and honest materials",
+        "aspect": "tall"
+      },
+      {
+        "src": "assets/images/projects/isha-developers-office/planter-core.jpg",
+        "alt": "Lush planter bed inside the office interior core",
+        "caption": "Interior planter core breathing life and microclimate cooling into the work environment",
+        "aspect": "wide"
+      }
+    ]
+  }
+]
